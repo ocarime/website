@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Merienda|Ropa+Sans&display=swap");
+body {
+  padding-top: calc(56px + 2rem);
+  font-family: "Ropa Sans", sans-serif;
+  font-size: large;
+  color: black;
+}
+
+.container {
+  max-width: 960px;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+  font-family: "Merienda", cursive;
+}
+
+nav.navbar {
+  background: green;
+}
+
+.vcard {
+  width: 100%;
+  margin: 0.5rem;
+  /*@media(min-width: 992px) {
+    width: calc(33% - 1rem);
+  }*/
+}
+
+@media (min-width: 768px) {
+  .vcard {
+    width: calc(50% - 1rem);
+  }
+}

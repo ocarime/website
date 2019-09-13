@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda|Ropa+Sans&display=swap');
+
+$font-text: 'Ropa Sans', sans-serif;
+$font-heading: 'Merienda', cursive;
+
+$color-text: black;
+$color-accent: green;

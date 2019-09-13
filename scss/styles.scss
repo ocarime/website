@@ -1,0 +1,33 @@
+@import "variables";
+
+body {
+  padding-top: calc(56px + 2rem);
+  font-family: $font-text;
+  font-size: large;
+  color: $color-text;
+}
+
+.container {
+  max-width: 960px;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+  font-family: $font-heading;
+}
+
+nav.navbar {
+  background: $color-accent;
+}
+
+.vcard {
+  width: 100%;
+  margin: 0.5rem;
+
+  @media(min-width: 768px) {
+    width: calc(50% - 1rem);
+  }
+
+  /*@media(min-width: 992px) {
+    width: calc(33% - 1rem);
+  }*/
+}
