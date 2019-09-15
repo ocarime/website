@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Merienda|Ropa+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora|Noto+Sans:400,700&display=swap');
 
-$font-text: 'Ropa Sans', sans-serif;
-$font-heading: 'Merienda', cursive;
+$font-text: 'Noto Sans', sans-serif;
+$font-heading: 'Lora', serif;
 
 $color-text: black;
-$color-accent: green;
+$color-accent: #B22424;

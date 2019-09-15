@@ -3,7 +3,6 @@
 body {
   padding-top: calc(56px + 2rem);
   font-family: $font-text;
-  font-size: large;
   color: $color-text;
 }
 
@@ -11,12 +10,31 @@ body {
   max-width: 960px;
 }
 
-h1, h2, h3, h4, h5, h6, .navbar-brand {
+h1, h2, h3, h4, h5, h6 {
   font-family: $font-heading;
 }
 
 nav.navbar {
-  background: $color-accent;
+  background: white;
+  border-bottom: 2px $color-accent dotted;
+
+  .navbar-brand {
+    font-family: $font-heading;
+    color: $color-accent;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+  }
+}
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $color-accent;
+  }
 }
 
 .vcard {
@@ -30,4 +48,8 @@ nav.navbar {
   /*@media(min-width: 992px) {
     width: calc(33% - 1rem);
   }*/
+}
+
+.text-accent {
+  color: $color-accent;
 }
