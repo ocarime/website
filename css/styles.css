@@ -2,7 +2,8 @@
 body {
   padding-top: calc(56px + 2rem);
   font-family: "Noto Sans", sans-serif;
-  color: black;
+  color: rgb(244,255,222);
+  background-color: rgb(32, 36, 45);
 }
 
 .container {
@@ -14,13 +15,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav.navbar {
-  background: white;
+  background: rgb(32, 36, 45);;
   border-bottom: 2px #B22424 dotted;
 }
 
 nav.navbar .navbar-brand {
   font-family: "Lora", serif;
-  color: #B22424;
+  /* color: #B22424; */
+  color: rgb(244,255,222);
 }
 
 nav.navbar .nav-link {
@@ -28,17 +30,18 @@ nav.navbar .nav-link {
 }
 
 a {
-  color: #B22424;
+  color: white;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #B22424;
+  color: white;
 }
 
 .vcard {
   width: 100%;
   margin: 0.5rem;
+  background-color: rgb(10,10,20);
   /*@media(min-width: 992px) {
     width: calc(33% - 1rem);
   }*/
