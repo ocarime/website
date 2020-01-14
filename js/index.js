@@ -1,16 +1,20 @@
-// When the header image is clicked
-$('.header-image').on('click', function() {
+// When the document is loaded
+$(function() {
   let header = $('header');
 
-  // Extend the height of the header
-  header.css('height', '80vh');
+  // When the game button is clicked
+  $('#header-btn-game').on('click', function() {
+      // Extend the height of the header
+    header.css('height', '80vh');
 
-  // Fade out the header image
-  $('.header-image').fadeOut(400, function() {
-    // Create the header iframe
-    $(document.createElement('iframe'))
-      .addClass('header-iframe')
-      .attr('src', 'https://beta.ocarime.com')
-      .appendTo(header);
+    // Fade out the header image
+    $('.header-image').fadeOut(400, function() {
+      // Create the header iframe
+      $(document.createElement('iframe'))
+        .addClass('header-iframe')
+        .attr('src', 'https://beta.ocarime.com')
+        .attr('frameborder', '0')
+        .appendTo(header);
+    });
   });
 });
