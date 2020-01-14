@@ -1,47 +1,127 @@
-@import url("https://fonts.googleapis.com/css?family=Lora|Noto+Sans:400,700&display=swap");
-body {
-  padding-top: calc(56px + 2rem);
-  font-family: "Noto Sans", sans-serif;
-  color: rgb(244,255,222);
-  background-color: rgb(32, 36, 45);
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:400,700&display=swap");
+.oc-text-light {
+  color: white;
 }
 
-.container {
-  max-width: 960px;
+.oc-text-dark {
+  color: #20242d;
+}
+
+.oc-text-accent-red {
+  color: #ce4a31;
+}
+
+.oc-text-accent-yellow {
+  color: #f4c957;
+}
+
+.oc-text-accent-blue {
+  color: #083f58;
+}
+
+.oc-text-accent-darkblue {
+  color: #073b55;
+}
+
+.oc-text-accent-pastelblue {
+  color: #3b5d61;
+}
+
+.oc-bg-light {
+  background-color: white;
+}
+
+.oc-bg-dark {
+  background-color: #20242d;
+}
+
+.oc-bg-accent-red {
+  background-color: #ce4a31;
+}
+
+.oc-bg-accent-yellow {
+  background-color: #f4c957;
+}
+
+.oc-bg-accent-blue {
+  background-color: #083f58;
+}
+
+.oc-bg-accent-darkblue {
+  background-color: #073b55;
+}
+
+.oc-bg-accent-pastelblue {
+  background-color: #3b5d61;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #20242d;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lora", serif;
-}
-
-nav.navbar {
-  background: rgb(32, 36, 45);;
-  border-bottom: 2px #B22424 dotted;
-}
-
-nav.navbar .navbar-brand {
-  font-family: "Lora", serif;
-  /* color: #B22424; */
-  color: rgb(244,255,222);
-}
-
-nav.navbar .nav-link {
-  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 a {
-  color: white;
+  color: #ce4a31;
+}
+
+a {
+  color: #ce4a31;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: white;
+  color: #ce4a31;
+}
+
+header {
+  height: 45vh;
+  background-color: black;
+  transition: height 0.4s ease-in-out;
+}
+
+header .header-image {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/splash.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .header-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+nav {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+nav .navbar-brand {
+  color: #ce4a31;
+}
+
+nav .nav-link {
+  color: white !important;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+main .container {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .vcard {
   width: 100%;
   margin: 0.5rem;
-  background-color: rgb(10,10,20);
   /*@media(min-width: 992px) {
     width: calc(33% - 1rem);
   }*/
@@ -54,5 +134,5 @@ a:hover, a:focus {
 }
 
 .text-accent {
-  color: #B22424;
+  color: #ce4a31;
 }

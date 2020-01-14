@@ -1,40 +1,75 @@
 @import "variables";
+@import "helpers";
 
 body {
-  padding-top: calc(56px + 2rem);
   font-family: $font-text;
+  background-color: $color-background;
   color: $color-text;
 }
 
 .container {
-  max-width: 960px;
+  //max-width: 960px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-heading;
 }
 
-nav.navbar {
-  background: white;
-  border-bottom: 2px $color-accent dotted;
+a {
+  color: $color-accent-red;
+}
+
+a {
+  color: $color-accent-red;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $color-accent-red;
+  }
+}
+
+// Page header
+header {
+  height: 45vh;
+  background-color: black;
+
+  transition: height 0.4s ease-in-out;
+
+  .header-image {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/splash.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+
+// Navigation bar
+nav {
+  font-family: $font-heading;
 
   .navbar-brand {
-    font-family: $font-heading;
-    color: $color-accent;
+    color: $color-accent-red;
   }
 
   .nav-link {
+    color: $color-light !important;
+
+    font-size: 1.25rem;
     text-transform: uppercase;
   }
 }
 
-a {
-  color: $color-accent;
-  text-decoration: none;
-
-  &:hover, &:focus {
-    color: $color-accent;
-  }
+main .container {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .vcard {
@@ -51,5 +86,5 @@ a {
 }
 
 .text-accent {
-  color: $color-accent;
+  color: $color-accent-red;
 }

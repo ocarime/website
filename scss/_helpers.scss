@@ -1,0 +1,47 @@
+@import "variables";
+
+// Helper classes for text colors
+.oc-text-light {
+  color: $color-light;
+}
+.oc-text-dark {
+  color: $color-dark;
+}
+.oc-text-accent-red {
+  color: $color-accent-red;
+}
+.oc-text-accent-yellow {
+  color: $color-accent-yellow;
+}
+.oc-text-accent-blue {
+  color: $color-accent-blue;
+}
+.oc-text-accent-darkblue {
+  color: $color-accent-darkblue;
+}
+.oc-text-accent-pastelblue {
+  color: $color-accent-pastelblue;
+}
+
+// Helper classes for background colors
+.oc-bg-light {
+  background-color: $color-light;
+}
+.oc-bg-dark {
+  background-color: $color-dark;
+}
+.oc-bg-accent-red {
+  background-color: $color-accent-red;
+}
+.oc-bg-accent-yellow {
+  background-color: $color-accent-yellow;
+}
+.oc-bg-accent-blue {
+  background-color: $color-accent-blue;
+}
+.oc-bg-accent-darkblue {
+  background-color: $color-accent-darkblue;
+}
+.oc-bg-accent-pastelblue {
+  background-color: $color-accent-pastelblue;
+}
